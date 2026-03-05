@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Compass, LayoutDashboard, BrainCircuit, Target, Map, BookOpen, Settings, LogOut } from "lucide-react";
+import { Compass, LayoutDashboard, BrainCircuit, Target, Map, BookOpen, Settings, LogOut, FileText } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
@@ -12,6 +12,7 @@ const navigation = [
     { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
     { name: "Career Coach", href: "/chat", icon: BrainCircuit },
     { name: "Skill Gap", href: "/analyzer", icon: Target },
+    { name: "Resume Analyzer", href: "/resume", icon: FileText },
     { name: "Roadmap", href: "/roadmap", icon: Map },
     { name: "Journal", href: "/journal", icon: BookOpen },
     { name: "Settings", href: "/profile", icon: Settings },
