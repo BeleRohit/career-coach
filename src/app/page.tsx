@@ -62,7 +62,7 @@ export default function LandingPage() {
               ))}
             </div>
             <p className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
-              Joined by <span className="text-zinc-900 dark:text-zinc-100 font-bold">2,000+</span> professionals accelerating their careers.
+              Powered by <span className="text-zinc-900 dark:text-zinc-100 font-bold">Llama 3.3</span> — your AI edge in a competitive job market.
             </p>
           </div>
         </section>
