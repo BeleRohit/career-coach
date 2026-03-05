@@ -168,7 +168,20 @@ Ensure the following are set in your deployment platform:
 
 ---
 
-## 📝 License
+## � Future Improvements
+
+### 🎙️ Interview Simulator
+A dedicated mock interview mode where the AI plays the interviewer, asks real questions for a specific role, and scores your answers with detailed feedback. Much more engaging and targeted than a generic chat.
+
+### 🎯 Job Description Matcher
+Paste any job description and get an instant breakdown of how well your profile matches, what's missing, and how to position yourself for that specific role.
+
+### 📅 Weekly Check-in
+A short weekly prompt — *"What did you work on this week? What's blocking you?"* — that builds a progress log over time and keeps you accountable and coming back consistently.
+
+---
+
+## �📝 License
 
 This project is for educational and personal use. Feel free to fork and build upon it.
 
