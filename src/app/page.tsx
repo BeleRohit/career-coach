@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Compass, BrainCircuit, Map, BookOpen, Star } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { HeroBackground3DWrapper } from "@/components/HeroBackground3DWrapper";
 
 export default function LandingPage() {
   return (
@@ -24,8 +25,8 @@ export default function LandingPage() {
 
       <main className="flex-1 flex flex-col items-center justify-center space-y-24 py-24 px-6 md:px-12 text-center relative overflow-hidden">
 
-        {/* Background Depth & Ambient Glow */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[500px] opacity-20 dark:opacity-40 pointer-events-none -z-10 blur-[100px] rounded-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500"></div>
+        {/* 3D Cursor-Reactive Background */}
+        <HeroBackground3DWrapper />
         <div className="absolute inset-0 bg-[url('/noise.png')] opacity-[0.03] pointer-events-none mix-blend-overlay"></div>
 
         <section className="max-w-4xl space-y-8 animate-in fade-in slide-in-from-bottom-8 duration-1000 relative z-10">
